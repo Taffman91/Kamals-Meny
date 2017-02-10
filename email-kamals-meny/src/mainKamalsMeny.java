@@ -11,6 +11,8 @@ public class mainKamalsMeny {
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
 
+		String vecka = "Meny vecka: ";
+		
 		Document doc=Jsoup.connect("https://www.facebook.com/Kamalsrestaurang/").timeout(6000).get();
 		String Text = doc.select("body p").text();
 		System.out.println(Text);
