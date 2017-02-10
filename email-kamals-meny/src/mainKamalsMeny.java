@@ -16,5 +16,6 @@ public class mainKamalsMeny {
 		Document doc=Jsoup.connect("https://www.facebook.com/Kamalsrestaurang/").timeout(6000).get();
 		String Text = doc.select("body p").text();
 		System.out.println(Text);
+		//yay
 		}
 	}
