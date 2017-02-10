@@ -6,6 +6,7 @@ public class mainKamalsMeny {
 
 		int Testing;
 		
+		System.out.println("Hello facking worl");
 		
 	}
 }
