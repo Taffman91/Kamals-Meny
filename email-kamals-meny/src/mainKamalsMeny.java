@@ -33,6 +33,8 @@ public class mainKamalsMeny {
 		//compare the two files
 		send_mail = compare("file.txt", "file2.txt");
 	          
+		System.out.println(send_mail);
+		
 		if(send_mail)
 		{
 			//Write to file.txt for comparison and send mail
